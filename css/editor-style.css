@@ -1,0 +1,37 @@
+ 
+ /* Justificar texto en Gutenberg */
+ .wp-block  .wp-block-paragraph{
+     text-align: justify;
+ } 
+
+.dashicons-editor-alignleft {
+  display: none !important;
+}
+
+ button.components-button.block-editor-block-switcher__toggle.has-icon,
+ .components-popover__content .components-menu-group:first-child,
+ .components-dropdown span
+ {
+  display: none ;
+}
+
+/* Añadir Bloque*/
+.components-panel__body:last-child, 
+.block-editor-inserter__search,
+svg.components-panel__arrow{
+  display: none !important;
+}
+
+@media (min-width: 782px){
+  .block-editor-inserter__popover>.components-popover__content {
+      height: 280px !important;
+  }
+}
+
+#lwptoc__postSettings{
+  display: none
+}
+
+.wp-block {
+  max-width: 920px;
+}
